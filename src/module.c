@@ -33,5 +33,4 @@ void module_close(struct server_module* module){
     dlclose(module->handle);
     free((char*) module->name);
     free(module);
-
 }

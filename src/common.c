@@ -38,6 +38,7 @@ void error(const char* cause,const char* message){
     fprintf(stderr,"%s:error:(%s) %s\n",program_name,cause,message);
     exit(1);
 }
+
 char* get_self_executable_directory(){
     int rval;
     char link_target[1024];
